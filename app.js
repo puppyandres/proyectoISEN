@@ -9,7 +9,7 @@ const PORT = 3000
 
 var accessLogStream = fs.createWriteStream(path.join(__dirname, 'access.log'), { flags: 'a' })
 
-const dbURI = 'mongodb+srv://admin:1234@clasenode.4a4qi.mongodb.net/UsersDB'
+const dbURI = 'mongodb+srv://user:user@clasenode.o74rr.mongodb.net/usersDB'
 
 mongoose.connect(dbURI)
     .then((resultado) => app.listen(PORT))
