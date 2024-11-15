@@ -1,0 +1,50 @@
+<html lang="es">
+
+<%- include ('./partials/head.ejs') %>
+
+    <body>
+
+        <%- include ('./partials/navegar.ejs') %>
+
+            <div class="create-blog content">
+                <form action="/users/crear" method="post">
+
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" required name="Nombre" placeholder="Nombre...">
+
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" required name="Apellido" placeholder="Apellido...">
+
+                    <label for="correo">Dirección de correo</label>
+                    <input type="email" id="correo" name="Correo" required placeholder="Correo...">
+
+                    <label for="contraseña">Contraseña</label>
+                    <input type="password" id="contraseña" name="Contraseña" required placeholder="Contraseña...">
+
+                    <label for="edad">Edad</label>
+                    <input type="number" id="edad" name="Edad" required placeholder="Edad...">
+
+                    <label for="nacionalidad">Nacionalidad</label>
+                    <input type="text" id="nacionalidad" name="Nacionalidad" required placeholder="Nacionalidad...">
+
+                    <label for="sexo">Sexo</label>
+                    <select id="sexo" name="Sexo" required>
+                        <option value="Hombre">Hombre</option>
+                        <option value="Mujer">Mujer</option>
+                    </select>
+
+                    <button type="submit">Enviar</button>
+
+                    <!-- <label for="snippet">Blog: </label>
+                    <input type="text" id="snippet" required name="snippet">
+
+                    <label for="body">Cuerpo del blog: </label>
+                    <textarea id="body" required name="body"> </textarea> -->
+                </form>
+            </div>
+
+            <%- include ('./partials/footer.ejs') %>
+
+    </body>
+
+</html>

@@ -1,0 +1,82 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0;
+    color: #3a6ea5;
+}
+
+.users {
+    flex-grow: 1;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.user-info {
+    margin-bottom: 20px;
+}
+
+.users h3.Nombre {
+    font-size: 1.6rem;
+    color: #333;
+    margin: 0 0 5px 0;
+}
+
+.users p.Apellido {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 0;
+}
+
+.users p {
+    font-size: 1rem;
+    color: #999;
+    text-align: center;
+}
+
+.users p.no-usuarios {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #f44336;
+}
+
+a {
+    color: #3a6ea5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #3a6ea5;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 14rem;
+    font-size: 1rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

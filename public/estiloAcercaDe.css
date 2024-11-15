@@ -1,0 +1,78 @@
+body {
+    background-color: #f4f7fb;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  nav {
+    background-color: #3a6ea5;
+    padding: 1rem;
+  }
+  
+  nav .site-title h1 {
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  nav u1 {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav u1 li {
+    margin: 0;
+  }
+  
+  nav u1 li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  nav u1 li a:hover {
+    text-decoration: underline;
+  }
+  
+  .about.content {
+    background-color: #ffffff;
+    width: 75%;
+    margin: 5rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 1.5r
+  }
+
+  footer {
+    background-color: #3a6ea5;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+  }
+
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }

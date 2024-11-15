@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<%- include ('./partials/head.ejs') %>
+
+<body>
+
+    <%- include ('./partials/navegar.ejs') %>
+
+        <div class="users content">
+            <h2>Todos los Usuarios</h2>
+                                                
+            <% if(users.length >0) { %>
+
+                <% users.forEach(user => { %>
+
+                    <div class="user-info">
+                        <h3 class="Nombre"> <%= user.Nombre %></h3>
+                        <p class="Apellido"> <%= user.Apellido %></p>
+                    </div>
+
+                <%  }) %>
+
+            <% } else { %>
+
+                <p>No hay usuarios que mostrar</p>
+
+            <% } %>
+
+        </div>
+        
+        <%- include ('./partials/footer.ejs') %>
+
+</body>
+
+</html>
